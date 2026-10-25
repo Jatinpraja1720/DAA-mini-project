@@ -95,8 +95,8 @@ Understand and compare algorithm time and space complexity.
 Build a functional, user-friendly web interface.
 Demonstrate the practical relevance of DAA concepts.
 Explore how algorithmic techniques can improve item discovery.
-🔮 Future Scope
 
+🔮 Future Scope
 CampusFind could be extended with user authentication, centralized database integration, image uploads, advanced matching techniques, notifications, and administrative tools.
 
 These enhancements could help transform the project into a more complete campus-wide lost-and-found service.
@@ -106,8 +106,8 @@ Data is stored locally rather than in a shared database.
 Reports are not automatically synchronized between different users or devices.
 Matching quality depends on the implemented algorithms and the descriptions entered.
 Additional security, validation, and testing would be needed for production use.
-👨‍💻 Project Details
 
+👨‍💻 Project Details
 Project: CampusFind
 Category: Design and Analysis of Algorithms (DAA) Mini Project
 Domain: Web Development and String Matching
