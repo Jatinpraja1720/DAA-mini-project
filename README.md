@@ -36,63 +36,83 @@ CampusFind is an algorithmic web application engineered to match lost personal b
 
 ---
 
-## 🚀 Getting Started
+🛠️ Technology Stack
 
-### Prerequisites
-- Node.js (v18.0 or newer recommended)
-- npm or yarn
+Frontend: React, TypeScript, Tailwind CSS
+Development Tool: Vite
+Icons: Lucide React
+Data Storage: Browser Local Storage
 
-### Installation
-Clone the repository and install dependencies:
-```bash
-git clone https://github.com/your-username/campusfind.git
-cd campusfind
+These technologies provide a component-based interface, structured code, responsive styling, and local data persistence.
+
+📁 Project Structure
+CampusFind/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+
+The displayed structure is illustrative; folders and files may differ in your current version.
+
+⚡ Getting Started
+
+Run CampusFind locally by following these steps.
+
+Prerequisites: Node.js and npm.
+
+1. Clone the repository
+
+git clone https://github.com/Jatinprajpa1720/DAA-mini-project.git
+
+2. Open the project directory
+
+cd DAA-mini-project
+
+3. Install dependencies
+
 npm install
 
-Running Locally
-
-Start the Vite development server:
+4. Start the development server
 
 npm run dev
 
-Open your browser at http://localhost:5173.
+5. Open the application
 
-Production Build
+Visit the local URL shown in your terminal, usually:
 
-To verify type safety and generate an optimised production build:
+http://localhost:5173/
 
-npm run build
+🎯 Project Goals
+Apply string-matching algorithms to a real-world problem.
+Understand and compare algorithm time and space complexity.
+Build a functional, user-friendly web interface.
+Demonstrate the practical relevance of DAA concepts.
+Explore how algorithmic techniques can improve item discovery.
+🔮 Future Scope
 
-Preview the production build locally:
+CampusFind could be extended with user authentication, centralized database integration, image uploads, advanced matching techniques, notifications, and administrative tools.
 
-npm run preview
+These enhancements could help transform the project into a more complete campus-wide lost-and-found service.
 
-📂 Source Code Organisation
+⚠️ Current Limitations
+Data is stored locally rather than in a shared database.
+Reports are not automatically synchronized between different users or devices.
+Matching quality depends on the implemented algorithms and the descriptions entered.
+Additional security, validation, and testing would be needed for production use.
+👨‍💻 Project Details
 
-src/
-├── algorithms/
-│   └── stringMatching.ts    # Pure implementations of Naive, KMP, and Rabin-Karp
-├── services/
-│   ├── matcher.ts           # Tokenisation, weighted heuristic calculation
-│   └── storage.ts           # Safe localStorage persistence and demo dataset
-├── types/
-│   └── index.ts             # TypeScript domain models
-├── components/              # Modals, Toast notifications, Header, Sidebar
-└── pages/                   # Dashboard, AllItems, SmartMatches, AlgorithmAnalysis, etc.
+Project: CampusFind
+Category: Design and Analysis of Algorithms (DAA) Mini Project
+Domain: Web Development and String Matching
+Developer: Jatin Prajapati
 
-🛡️ Note on Demonstration Scope
+🔗 GitHub Repository: DAA-mini-project
 
-This project is configured as a standalone single-user client-side demonstration
-for college presentations. Contact details are masked in general listings and
-claims management does not incorporate multi-tenant password authentication.
-
-
----
-
-### 10. Verification of Project Requirements
-
-- **Real Algorithms**: Implemented cleanly in `src/algorithms/stringMatching.ts` with true character comparison counters, LPS table calculation, and rolling hash calculation.
-- **Matching Engine**: Lost reports are strictly evaluated against Found reports; missing optional fields (like Brand) are normalised so scores remain fair and balanced.
-- **Design Guidelines**: Uses Tailwind CSS with the requested color palette (`#2563EB`, `#7C3AED`, `#EFF6FF`, `#F5F3FF`, `#1E293B`, `#16A34A`, `#F59E0B`, `#F8FAFC`).
-- **Interactive Lab**: The Algorithm Analysis page lets you test any custom text and pattern, examine step traces, inspect the computed LPS table, and benchmark all three algorithms side-by-side.
-- **Ready for GitHub & Viva**: Complete project layout, type checking, demo data reset functionality, and an academic README.
+<p align="center"> <strong>Built to make campus lost-and-found searching smarter. 🎓</strong> <br /> <sub>DAA Mini Project · CampusFind</sub> </p>
